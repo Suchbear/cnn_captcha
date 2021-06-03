@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow._api.v2.compat.v1 as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import time
